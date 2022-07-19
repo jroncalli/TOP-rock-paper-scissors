@@ -27,6 +27,8 @@ choices.forEach((choices) => {
     userChoice = e.target.id;
     playerChoice.textContent = userChoice;
     computerChoice();
+
+    // TODO move to checkwinner function
     if (userChoice == compChoice) {
       winnerDisplay.textContent = "Tie Game";
     } else if (userChoice == "Rock")
