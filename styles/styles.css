@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,700&display=swap");
+
+body {
+  background-color: black;
+  /* width: 80%; */
+  margin: 0 auto;
+  font-family: ubuntu, sans-serif;
+  color: white;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+img {
+  margin: 0 20px;
+}
+
+.title {
+  font-family: Ubuntu, sans-serif;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 4rem;
+}
+
+.results {
+  font-family: Ubuntu, sans-serif;
+  color: white;
+  line-height: 0.75;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.game {
+  text-align: center;
+}
