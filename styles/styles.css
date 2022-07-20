@@ -43,3 +43,11 @@ img {
 .game {
   text-align: center;
 }
+
+.instructions {
+  font-size: 1.5rem;
+}
+
+.here {
+  font-weight: bold;
+}
