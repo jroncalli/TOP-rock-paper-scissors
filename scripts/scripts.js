@@ -23,7 +23,6 @@ restartButton.addEventListener("click", function () {
 for (i of choices) {
   i.addEventListener("click", function (e) {
     if (running) {
-      console.log(e.target.id);
       pChoiceDisplay.textContent = e.target.id;
       computerChoice();
       testWinner();
@@ -66,7 +65,6 @@ function checkWinner() {
 function computerChoice() {
   let cChoice = possibleChoice[Math.floor(Math.random() * possibleChoice.length)];
   cChoiceDisplay.textContent = cChoice;
-  console.log("computer choice " + cChoice);
 }
 
 function testWinner() {
