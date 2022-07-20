@@ -33,7 +33,7 @@ img {
   font-family: Ubuntu, sans-serif;
   color: white;
   line-height: 0.75;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .hidden {
@@ -50,4 +50,13 @@ img {
 
 .here {
   font-weight: bold;
+}
+
+.resulttext {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.results {
+  text-align: center;
 }
